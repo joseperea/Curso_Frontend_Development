@@ -1,0 +1,13 @@
+:root{/*Declarador de variables*/
+    --colorfondo: green;
+    --pesorFuente: 900;
+}
+
+.Div-Class{
+    background-color: var(--colorfondo);  /*Forma de como utilizar variable*/  
+}
+
+h1{
+    background-color: var(--colorfondo);  
+    font-weight: var(--pesorFuente);
+}
